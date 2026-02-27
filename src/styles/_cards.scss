@@ -1,0 +1,22 @@
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   //  padding: 5px;
+   //  width: 100%;
+  
+
+ img{
+    width: 283px;
+    height: 177px;
+   gap: 16px;
+    border-radius: 15px;
+ justify-content: space-between;
+}
+.card {
+   padding: 6px;
+}
+
+}
+
