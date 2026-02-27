@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding: 20px;
 }
 #app img {
   width: 283px;
@@ -18,18 +19,21 @@
 .h1 {
   color: #32B379;
   padding: 8px;
+  align-items: center;
+  padding: 15px;
 }
 
 .input {
   border: 20px;
   border-radius: 5px;
   background-color: #D9D9D9;
-  height: 20px;
+  height: 40px;
+  width: 350px;
+  align-items: center;
 }
 
 .para {
   border: 2px;
-  background-color: aqua;
   width: 50px;
   height: 50px;
   border-radius: 40px;
@@ -37,7 +41,6 @@
 
 .para {
   border: 2px;
-
   width: 50px;
   height: 50px;
   border-radius: 40px;
@@ -46,9 +49,24 @@
 .div {
   display: flex;
   justify-content: space-between;
-}/*# sourceMappingURL=main.css.map */
-.image{
+}
+
+.image {
   width: 60px;
   height: 60px;
-  border-radius: 40px;
+  border-radius: 30px;
+}/*# sourceMappingURL=main.css.map */
+
+
+.img{
+  align-items: center;
+  width: 1250px;
+  height: 565px;
+}
+.button{
+  bottom: 20px;
+
+}
+.image{
+  background-image: url("torta.jpg");
 }
